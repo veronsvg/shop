@@ -226,7 +226,7 @@ header{
 }
 
 .cartDiv p{
-    width: 10%
+    width: 15%
 }
 
 .amountInCart{
@@ -234,7 +234,7 @@ header{
 }
 
 .totalInCart{
-    width: 15%;
+    width: 25%;
     font-weight: bold;
 }
 
@@ -246,10 +246,10 @@ header{
     background-color: rgb(128, 128, 128, 0.3)
 }
 
-.deleteBottom{
-    background-color: grey;
+/* .deleteBottom{
+    background-color: black;
     border-radius: 50%;
-    color: white;
+    color: rgb(180, 180, 180);
     font-size: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -257,4 +257,4 @@ header{
     padding-right: 5px;
     margin-right: 50px;
     text-align: center;
-}
+} */
