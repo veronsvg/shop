@@ -52,7 +52,7 @@ for( let product of products){
 
     let stockCart = document.createElement('img');
     option.append(stockCart);
-    stockCart.src = '/clip.png';
+    stockCart.src = 'clip.png';
     stockCart.className = 'stock_cart';
     
 
