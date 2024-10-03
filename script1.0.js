@@ -34,13 +34,21 @@
         totalInCart.textContent = `${product.amount * product.price}₽`;
         totalInCart.className = 'totalInCart'
 
-        let deleteBottom = document.createElement('div');
-        cartDiv.prepend(deleteBottom);
-        deleteBottom.className = 'deleteBottom'
-        deleteBottom.textContent = 'x'
+        let deleteButton = document.createElement('div');
+        cartDiv.prepend(deleteButton);
+        deleteButton.className = 'deleteButton'
+        deleteButton.textContent = 'x'
     }
 
-    // deleteBottom.addEventListener ('click' function (){
+    /*
+        for (let div of document.querySelectorAll('cartDiv')){
+        div.insertAdjacentHTML('afterbegin' ')
+        }
+    
+        deleteBottom.onclick = function (event){
+        if(event.target.className != 'deleteButton') return;
+     
+        even.target.closest()
 
-    // });
-
+        });
+*/
